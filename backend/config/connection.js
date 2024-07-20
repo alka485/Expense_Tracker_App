@@ -8,5 +8,7 @@ connect(connectionString, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
+ console.log('db connected');
+// Export connection 
 
 module.exports = connection;
