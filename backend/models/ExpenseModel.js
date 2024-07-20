@@ -1,4 +1,4 @@
-const {Schema, Types} = require ('mongoose');
+const {Schema, model} = require ('mongoose');
 
 const expenseSchema = new Schema(
     {
@@ -42,5 +42,6 @@ const expenseSchema = new Schema(
         id: false,
       }
 );
+const Expense = model('expense', expenseSchema);
 
 module.exports = Expense;
