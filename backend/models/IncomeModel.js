@@ -43,4 +43,4 @@ const incomeSchema = new Schema(
       }
 );
 
-module.exports = incomeSchema;
+module.exports = Income;

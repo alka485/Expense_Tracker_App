@@ -43,4 +43,4 @@ const expenseSchema = new Schema(
       }
 );
 
-module.exports = expenseSchema;
+module.exports = Expense;
