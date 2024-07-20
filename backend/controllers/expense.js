@@ -1,4 +1,4 @@
-const {Expense , Income} = require('../models');
+const {Expense} = require('../models');
 
 module.exports = {
     //get all expenses
