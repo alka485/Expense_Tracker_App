@@ -2,6 +2,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import  bg from './img/bg.png';
+import {MainLayout} from './styles/Layout'
 
 //import './App.css'
 
@@ -24,16 +25,13 @@ const AppStyled  = styled.div`
 
 function App() {
 
-  // const AppStyled  = styled.div`
-  // height: 100vh;
-  // background-image: white;
   
-  // `
- 
-
   return (
     <AppStyled className = "App">
+
+      <MainLayout>
       <h1>Hello</h1>
+      </MainLayout>
       
     </AppStyled>
   )
