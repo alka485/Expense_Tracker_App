@@ -2,9 +2,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import avatar from '../img/avatar.png'
+import { signout } from '../utils/Icons'
 import { menuItems } from '../utils/menuItems'
 
 const NavStyled = styled.div`
+//color: red;
       
 `
 
@@ -30,8 +32,14 @@ const Navigation = () => {
             </li>
           })}
         </ul>
+        <div className="bottom-nav">
+          <li>
+         {signout} Sign Out
+          </li>
+        </div>
 
     </NavStyled>
+   
   )
 }
 

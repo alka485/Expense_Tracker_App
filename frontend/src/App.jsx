@@ -25,7 +25,7 @@ const AppStyled  = styled.div`
     &::-webkit-scrollbar{
       width: 0;
     }
-  }
+ }
   `
 
 function App() {
@@ -36,9 +36,8 @@ function App() {
     <AppStyled className = "App">
       
       <MainLayout>
-      <h1>Hello</h1>
-      </MainLayout>
       <Navigation/>
+      </MainLayout>
       
     </AppStyled>
   )
