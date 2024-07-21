@@ -2,7 +2,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import avatar from '../img/avatar.png'
-
+import { menuItems } from '../utils/menuItems'
 
 const NavStyled = styled.div`
       
@@ -18,6 +18,18 @@ const Navigation = () => {
                 <p>Your Money</p>
             </div>
         </div>
+        <ul className="menu-items">
+          {menuItems.map((item) => {
+            return <li
+                   key={item.id}
+                   
+            > 
+            {item.icon}
+            <span>{item.title}</span>
+
+            </li>
+          })}
+        </ul>
 
     </NavStyled>
   )
