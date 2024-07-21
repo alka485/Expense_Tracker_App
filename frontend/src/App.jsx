@@ -5,6 +5,7 @@ import styled from 'styled-components'
 //----------------------------------------------import dependency
 import  bg from './img/bg.png';
 import {MainLayout} from './styles/Layout'
+import Navigation from './components/Navigation';
 //import Orb from './components/Orb';
 
 
@@ -37,6 +38,7 @@ function App() {
       <MainLayout>
       <h1>Hello</h1>
       </MainLayout>
+      <Navigation/>
       
     </AppStyled>
   )
