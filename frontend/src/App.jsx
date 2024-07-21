@@ -1,8 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import styled from 'styled-components'
+//----------------------------------------------import dependency
 import  bg from './img/bg.png';
 import {MainLayout} from './styles/Layout'
+import Orb from './components/Orb';
 
 //import './App.css'
 
@@ -28,6 +30,7 @@ function App() {
   
   return (
     <AppStyled className = "App">
+      <Orb/>
 
       <MainLayout>
       <h1>Hello</h1>
