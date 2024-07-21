@@ -1,3 +1,5 @@
+import {dashboard, expenses, transactions, trend} from '../utils/Icons'
+
 export const menuItems = [
     {
         id: 1,
