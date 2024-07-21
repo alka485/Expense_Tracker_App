@@ -40,6 +40,7 @@ const incomeSchema = new Schema(
           getters: true,
         },
         id: false,
+        //timestamps:true
       }
 );
 

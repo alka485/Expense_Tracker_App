@@ -40,7 +40,9 @@ const expenseSchema = new Schema(
           getters: true,
         },
         id: false,
-      }
+          //timestamps:true
+       }
+
 );
 const Expense = model('expense', expenseSchema);
 
